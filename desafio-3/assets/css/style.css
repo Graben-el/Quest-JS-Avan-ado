@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagens/bg-repeat.jpg) center center repeat-x;
+    background-size: contain;
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .texto {
+    color: white;
+}
+
+main .texto h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.1rem;
+}
+
+main .texto p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 300px;
+}
+
+main .formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px 20px 22px;
+    width: 340px;
+    height: 378px;
+    margin-left: 72px;
+}
+
+main .formulario .input,
+main .formulario textarea {
+    border: 1px solid;
+    padding: 8px;
+    font-weight: 700;
+    margin-top: 15px;
+    outline: none;
+}
+
+main .formulario #nome {
+    margin-top: 0px;
+}
+
+main .formulario input::placeholder,
+main .formulario textarea::placeholder {
+    color: #A8A8A8;
+}
+
+main .formulario textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+main .formulario .input:focus,
+main .formulario textarea:focus {
+    border: 2px solid #00C22B;
+}
+
+main .formulario .aviso {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: red;
+}
+
+main .formulario .campo-obrigatorio {
+    margin: 7px 0 11px; 
+}
+
+main .formulario .submit {
+    color: #FFF;
+    background-color: #3CCC87;
+    border: none;
+    padding: 12px;
+}

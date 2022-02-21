@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="texto">
+            <h1>Ficou com dúvida? <br> Nos mande uma mensagem!</h1>
+
+            <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </section>
+
+        <form method="post" class="formulario" autocomplete="off">
+            <input type="text" name="nome" id="nome" placeholder="Nome completo *" class="input">
+            <p class="aviso aviso-text"></p>
+
+            <input type="email" name="email" id="email" placeholder="E-mail *" class="input">
+            <p class="aviso aviso-email"></p>
+
+            <input type="tel" name="telefone" id="telefone" placeholder="Telefone *" class="input">
+            <p class="aviso aviso-telefone"></p>
+
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem *" class="input"></textarea>
+            <p class="aviso aviso-mensagem"></p>
+
+            <p class="campo-obrigatorio">*campos obrigatórios</p>
+
+            <button type="submit" class="submit">Enviar</button>
+        </form>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
